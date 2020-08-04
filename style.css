@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background-position: center;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Irish Grover', cursive;
+}
+
+header {
+    display: flex;
+    color: white;
+}
+
+#logo {
+    width: 80px;
+    margin: 0px;
+}
+
+.topPara,
+.nxtParas {
+    display: flex;
+    margin-top: 27px;
+}
+
+.topPara {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+
+.nxtParas {
+    margin-left: 350px;
+}
+
+.nxtPara {
+    margin: 0px 80px;
+}
+
+.nxtPara:hover {
+    background: linear-gradient(45deg, black, red);
+    box-shadow: 12px 12px 2px 0.5px red;
+    padding: 15px;
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    padding: 100px;
+}
+
+footer {
+    float: right;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    padding: 20px;
+}
+
+button {
+    margin-left: 60px;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(45deg, black, rgb(116, 165, 140));
+    color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button:hover {
+    background: linear-gradient(45deg, black, red);
+    box-shadow: 12px 12px 2px 0.5px red;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.para {
+    margin-left: 200px;
+    font-size: 100px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(27, 32, 35);
+    text-shadow: 15px 13px 8px rgb(116, 165, 140);
+}
+
+.para p {
+    padding: 30px;
+}
