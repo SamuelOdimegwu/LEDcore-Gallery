@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,27 +8,56 @@
 </head>
 
 <body>
-    <div class="background-image"></div>
-    <header>
+    <div class="container-fluid">
+        <div class="background-image"></div>
+        <header>
+            <div class="row">
+                <div class="row col-xs-4">
+                    <div class="col-xs-1">
+                        <img src="lens.png" alt="logo" id="logo" class="img-responsive">
+                    </div>
+                    <div class="col-xs-1">
+                        <p class="topPara">LEDcore</p>
+                    </div>
+                </div>
 
-        <img src="lens.png" alt="logo" id="logo">
-        <p class="topPara">LEDcore</p>
-
-        <div class="nxtParas">
-            <p class="nxtPara">HOME</p>
-            <p class="nxtPara">ABOUT</p>
-            <p class="nxtPara">GALLERY</p>
-            <p class="nxtPara">NEWS</p>
+                <div class="nxtParas row col-xs-2">
+                    <div class="col-xs-6">
+                        <p class="nxtPara">HOME</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <p class="nxtPara">ABOUT</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <p class="nxtPara">GALLERY</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <p class="nxtPara">NEWS</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="body row">
+            <div class="col-xs-4">
+                <img src="cam.png" alt="camera" class="img-responsive">
+            </div>
+            <div class="para col-xs-4">
+                <p>LEDcore</p>
+                <p>Gallery</p>
+            </div>
         </div>
-    </header>
-    <div class="body">
-        <img src="cam.png" alt="camera">
-        <div class="para">
-            <p>LEDcore</p>
-            <p>Gallery</p>
-        </div>
+        <footer>
+            <div class="row">
+                <div class="col-xs-8">
+                    <button>EXPLORE</button>
+                </div>
+                <div class="col-xs-1">
+                    <button>JOIN US</button>
+                </div>
+            </div>
+        </footer>
     </div>
-    <footer><button>EXPLORE</button><button>JOIN US</button></footer>
+
 </body>
 
 </html>
