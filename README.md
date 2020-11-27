@@ -4,10 +4,11 @@
 
 ![screenshot](./screenshot.png)
 
-The LEDcore login page has two buttons:
+# The LEDcore login page has two buttons:
   - Login
   - Sign Up
-It also has 4 links to navigate you to other parts of the page (still under maintenance)
+  
+# It also has 4 links to navigate you to other parts of the page (still under maintenance)
   - Home
   - About
   - Gallery
