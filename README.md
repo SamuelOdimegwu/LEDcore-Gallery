@@ -26,7 +26,7 @@
 
 👤 **Author**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
+- Github: [@githubhandle](https://github.com/SamuelOdimegwu)
 - Linkedin: [linkedin](https://www.linkedin.com/in/samuel-odimegwu-0364291a8/)
 
 
