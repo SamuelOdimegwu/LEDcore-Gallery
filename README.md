@@ -1,57 +1,33 @@
-# Project Name
+# LEDcore Gallery
 
-> One paragraph statement about the project.
+> This is a photgraphy login/ sign-up page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
+The LEDcore login page has two buttons:
+  - Login
+  - Sign Up
+It also has 4 links to navigate you to other parts of the page (still under maintenance)
+  - Home
+  - About
+  - Gallery
+  - News
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 and CSS3
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](http://127.0.0.1:5500/LEDcore-Gallery/index.html)
 
 
 
-## Authors
-
-👤 **Author1**
+👤 **Author**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Linkedin: [linkedin](https://www.linkedin.com/in/samuel-odimegwu-0364291a8/)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -62,12 +38,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
